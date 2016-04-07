@@ -1,2 +1,4 @@
-# CocoaSpecs
-The RedRoma Cocoa Specs Repo
+RedRoma Cocoa
+========================
+
+This is the RedRoma CocoaPods Repository Spec.
