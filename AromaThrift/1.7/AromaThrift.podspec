@@ -9,7 +9,7 @@ Pod::Spec.new do |aroma|
   aroma.source           =
   {
        :git => "https://github.com/RedRoma/aroma-thrift.git",
-       :tag => "1.8"
+       :tag => "1.7"
   }
   aroma.source_files = "src/main/cocoa/*.{h,m}"
   # aroma.resources = 'Pod/Assets/*'
