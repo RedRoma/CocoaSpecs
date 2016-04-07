@@ -19,6 +19,6 @@ Pod::Spec.new do |aroma|
 
   aroma.dependency 'ThriftLib', '~> 0.9.3'
   aroma.prepare_command = <<-CMD
-     find Pods -regex '.*/*/AromaThrift/.*\\.h' -print0 | xargs -0 sed -i  '' 's_\\(.*import\\) \\"\\(T.*h.*\\)\\"_\\1 <Thrift/\\2>_'
+    find Pods -regex '.*/*/AromaThrift/.*\\.h' -print0 | xargs -0 sed -i  '' 's_\\(.*import\\) \\"\\(T.*h.*\\)\\"_\\1 <Thrift/\\2>_'
     CMD
 end
