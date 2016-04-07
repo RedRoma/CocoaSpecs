@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.author           = { "SirWellington" => "wellington@redroma.tech" }
   spec.source           =
   {
-       :git => "https://github.com/RedRoma/SwiftExceptionCatcher.git",
-       :branch => "develop"
+      :git => "https://github.com/RedRoma/SwiftExceptionCatcher.git",
+      :branch => "develop"
   }
   spec.source_files = "SwiftExceptionCatcher/SwiftExceptionCatcher/*.{h,m,swift}"
   # spec.resources = 'Pod/Assets/*'
