@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source           =
   {
       :git => "https://github.com/RedRoma/SwiftExceptionCatcher.git",
-      :branch => "develop"
+      :tag => "1.0"
   }
   spec.source_files = "SwiftExceptionCatcher/SwiftExceptionCatcher/*.{h,m,swift}"
   # spec.resources = 'Pod/Assets/*'
