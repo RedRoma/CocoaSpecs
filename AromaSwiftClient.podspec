@@ -1,7 +1,7 @@
 Pod::Spec.new do |aroma|
   aroma.name             = "AromaSwiftClient"
   aroma.module_name      = 'AromaSwiftClient'
-  aroma.version          = "1.1"
+  aroma.version          = "1.2"
   aroma.summary          = "The Official Aroma Swift Client."
   aroma.homepage         = "https://github.com/RedRoma/aroma-swift-client"
   aroma.license          = "Code is Licensed under Apache 2.0"
@@ -9,7 +9,7 @@ Pod::Spec.new do |aroma|
   aroma.source           =
   {
        :git => "https://github.com/RedRoma/aroma-swift-client.git",
-       :branch => "develop"
+       :tag => "1.2"
   }
   aroma.source_files = "AromaSwiftClient/AromaSwiftClient/*.{h,m,swift}"
   # aroma.resources = 'Pod/Assets/*'
