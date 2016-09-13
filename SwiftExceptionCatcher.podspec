@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name             = "SwiftExceptionCatcher"
   spec.module_name      = 'SwiftExceptionCatcher'
-  spec.version          = "1.1"
+  spec.version          = "1.2"
   spec.summary          = "Catch NSException with Swift"
   spec.homepage         = "https://github.com/RedRoma/SwiftExceptionCatcher"
   spec.license          = "Code is Licensed under Apache 2.0"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source           =
   {
       :git => "https://github.com/RedRoma/SwiftExceptionCatcher.git",
-      :tag => "1.1"
+      :tag => "1.2"
   }
   spec.source_files = "SwiftExceptionCatcher/SwiftExceptionCatcher/*.{h,m,swift}"
   # spec.resources = 'Pod/Assets/*'
